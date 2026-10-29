@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/Perfil.dart';
+import 'package:flutterproject/Receita.dart';
 
 class Principal extends StatelessWidget {
   const Principal ({super.key});
@@ -8,7 +8,7 @@ class Principal extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Perfil(),
+      home: Receita(),
     );
   }
 }
